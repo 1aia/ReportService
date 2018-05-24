@@ -10,13 +10,33 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Domain\CheckEmployeeResult.cs" />
+    <Compile Remove="Domain\Common.cs" />
+    <Compile Remove="Domain\EmpCodeResolver.cs" />
+    <Compile Remove="Domain\EmployeeInPayroll.cs" />
+    <Compile Remove="Domain\EmployeeListSelectorContract.cs" />
+    <Compile Remove="Domain\EmployeeReport\ReportFormatter.cs" />
+    <Compile Remove="Domain\EPaymentType.cs" />
+    <Compile Remove="Domain\EPayrollStatus.cs" />
+    <Compile Remove="Domain\OrderPayrollContract.cs" />
+    <Compile Remove="Domain\Payroll.cs" />
+    <Compile Remove="Domain\PayrollEmployee.cs" />
+    <Compile Remove="Domain\PayrollEmployeeListOutContract.cs" />
+    <Compile Remove="Domain\PayrollFormingStatusChanged.cs" />
+    <Compile Remove="Domain\PayrollInLayer.cs" />
+    <Compile Remove="Domain\PayrollInList.cs" />
+    <Compile Remove="Domain\PayrollListOutContract.cs" />
+    <Compile Remove="Domain\PayrollListSelectorContract.cs" />
+    <Compile Remove="Domain\PayrollWidgetData.cs" />
+    <Compile Remove="Domain\UpsertPayrollReceived.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Dapper" Version="1.50.4" />
-    <PackageReference Include="Facebook" Version="7.0.6" />
-    <PackageReference Include="iTextSharp" Version="5.5.13" />
     <PackageReference Include="json-serialize" Version="1.1.2" />
     <PackageReference Include="Microsoft.AppCenter.Push" Version="1.4.0" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.3" />
